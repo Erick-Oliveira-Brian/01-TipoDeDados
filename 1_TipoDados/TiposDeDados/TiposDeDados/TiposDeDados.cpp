@@ -87,54 +87,50 @@ int main()
 
 
 	//ATVIDADE 1 
-//#include <climits>
-//	cout << "int max = " << INT_MAX << "\n";
-//	cout << "int min = " << INT_MIN << "\n";
-//	cout << "short max = " << SHRT_MAX << "\n";
-//	
-//	cout << "int max + 1 = " << INT_MAX + 1 << "\n";
+#include <climits>
+	cout << "int max = " << INT_MAX << "\n";
+	cout << "int min = " << INT_MIN << "\n";
+	cout << "short max = " << SHRT_MAX << "\n";
+	
+	cout << "int max + 1 = " << INT_MAX + 1 << "\n";
 
 	//ele fica negativo com esse valor -2147483648
 
+	//ATIVIDADE 2
+	cout << "Digite uma temperatura em celcius: ";
+	double celcius;
+	double kelvin;
+	double fahrenheit;
+
+	cin >> celcius;
+	fahrenheit = (celcius * 1.8) + 32;
+	kelvin = celcius + 273.15;
+
+	cout << "A conversao de celcius para fahrenheit e: " << fahrenheit << endl;
+	cout << "A conversao de celcius para kelvin e: " << kelvin << endl;
 
 
 
 	//ATIVIDADE 3
-	//cout << "Digite um numero de segundos: ";
-	//long segundos;
-	//double horas;
-	//double dias;
-	//double segundosrestantes;
-	//
-	//cin >> segundos;
-	//double minutos = segundos / 60.0;
-	//horas = minutos / 60;
-	//dias = horas / 24;
-	//segundosrestantes = segundos % 60;
-
-
-	//
-	//  
-	//cout << "O numero em minutos e: " << minutos << endl; 
-	//cout << "O numero em horas e: " << horas << endl;
-	//cout << "O numero em dias e: " << dias << endl;
-	//cout << "O numero de segundos restantes e: " << segundosrestantes << endl;
-
-
-
-	//ATIVIDADE 2
-	//cout << "Digite uma temperatura em celcius: ";
-	//double celcius;
-	//double kelvin;
-	//double fahrenheit;
-
-	//cin >> celcius;
-	//fahrenheit = (celcius * 1.8) + 32;
-	//kelvin = celcius + 273.15;
-
-	//cout << "A conversao de celcius para fahrenheit e: " << fahrenheit << endl;
-	//cout << "A conversao de celcius para kelvin e: " << kelvin << endl;
+	cout << "Digite um numero de segundos: ";
+	long segundos;
+	double horas;
+	double dias;
+	double segundosrestantes;
 	
+	cin >> segundos;
+	double minutos = segundos / 60.0;
+	horas = minutos / 60;
+    dias = horas / 24;
+	segundosrestantes = segundos % 60;
+
+  
+	cout << "O numero em minutos e: " << minutos << endl; 
+	cout << "O numero em horas e: " << horas << endl;
+	cout << "O numero em dias e: " << dias << endl;
+	cout << "O numero de segundos restantes e: " << segundosrestantes << endl;
+
+		
 
 
 	//ATIVIDADE 4 
